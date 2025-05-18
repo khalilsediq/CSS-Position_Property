@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 300px auto;
+    overflow: hidden;
+    background-color: gray;
+}
+#pink{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    /* display: inline;
+    float: left; */
+    position: relative;
+    top: 10px;
+    left: 150px;
+    
+}
+#cyan{
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    /* display: inline;
+    float: right; */
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+#orange{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    /* display: inline;
+    float: inline-; */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
